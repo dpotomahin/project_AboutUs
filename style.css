@@ -6,6 +6,9 @@ body{
     padding-top: 20px;
     width: 1400px;
 }
+.global{
+    width: 1400px;
+}
 .menu_1{
     display: flex;
     justify-content: space-around;
@@ -108,8 +111,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1400px;
     margin-top: 20px;
-    border: 2px solid #777777;
+    border-top: 2px solid #777777;
+    border-bottom: 2px solid #777777;
 }
 .glob_nav_header_1 li:hover{
     border-bottom: 3px solid red;
@@ -268,6 +273,7 @@ span_p{
     left: 90px;
 }
 .our_choice{
+    width: 1400px;
     position: relative;
     margin-top: 50px;
     background: url(./img/montenegro-hero\ 3.png);
